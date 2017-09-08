@@ -1,0 +1,22 @@
+mysql:
+    hostname: localhost
+    port: 3306
+    database: stanalytics
+    username: root
+    password: password
+    prefix: stanalytics_
+    pool:
+        connectionTimeout: 30000
+        idleTimeout: 300000
+        minIdleConnections: 9
+        maxConnections: 9
+
+stats:
+    server: server1
+    periodic:
+        enabled: true
+        interval: 60
+    players:
+        enabled: true
+
+debug: false

@@ -1,0 +1,14 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ${organization.name}
+website: ${organization.url}
+
+main: com.shepherdjerred.stanalytics.Main
+
+commands:
+    stAnalytics:
+        description: Main commands for the stAnalytics plugin
+        aliases: [stAnalytics]
+        permission: stAnalytics.commands.hub
+        usage: /stAnalytics
